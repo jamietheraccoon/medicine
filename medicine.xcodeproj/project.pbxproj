@@ -14,6 +14,7 @@
 		E219D80A2744C463006D3BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E219D8092744C463006D3BCB /* Assets.xcassets */; };
 		E219D80D2744C463006D3BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E219D80B2744C463006D3BCB /* LaunchScreen.storyboard */; };
 		E219D8152744CD9F006D3BCB /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219D8142744CD9F006D3BCB /* Medicine.swift */; };
+		E2926F37274999CF004F25F4 /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2926F36274999CF004F25F4 /* MedicineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E219D80C2744C463006D3BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E219D80E2744C463006D3BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E219D8142744CD9F006D3BCB /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		E2926F36274999CF004F25F4 /* MedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E219D80B2744C463006D3BCB /* LaunchScreen.storyboard */,
 				E219D80E2744C463006D3BCB /* Info.plist */,
 				E219D8142744CD9F006D3BCB /* Medicine.swift */,
+				E2926F36274999CF004F25F4 /* MedicineViewController.swift */,
 			);
 			path = medicine;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E219D8052744C462006D3BCB /* ViewController.swift in Sources */,
+				E2926F37274999CF004F25F4 /* MedicineViewController.swift in Sources */,
 				E219D8012744C462006D3BCB /* AppDelegate.swift in Sources */,
 				E219D8032744C462006D3BCB /* SceneDelegate.swift in Sources */,
 				E219D8152744CD9F006D3BCB /* Medicine.swift in Sources */,
