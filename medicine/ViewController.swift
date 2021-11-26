@@ -62,6 +62,15 @@ class ViewController: UITableViewController, UISearchBarDelegate {
         tableView.reloadData()
     }
     
+    // pass the selected medicine from the selected row into the MedicineViewController
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "MedicineSegue" {
+            if let destination = segue.destination as? MedicineViewController {
+                destination.medicine = searchResults[tableView.indexPathForSelectedRow!.row]
+            }
+        }
+    }
+    
     // read local json file into data
     func readLocalFile(file: String) -> Data? {
         do {

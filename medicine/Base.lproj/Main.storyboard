@@ -30,7 +30,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="mMi-mc-lK5" kind="show" id="uCW-va-qyR"/>
+                                    <segue destination="mMi-mc-lK5" kind="show" identifier="MedicineSegue" id="uCW-va-qyR"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -55,14 +55,26 @@
                     <view key="view" contentMode="scaleToFill" id="hT9-5R-Vic">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ToH-7W-ncJ">
+                                <rect key="frame" x="16" y="273" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Nm4-vn-YfV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="RdR-pZ-gMT"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="ToH-7W-ncJ" id="upP-3o-ceU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gly-wG-Obt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1641" y="30"/>
+            <point key="canvasLocation" x="1640.8" y="29.55665024630542"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gSO-WM-vY3">
