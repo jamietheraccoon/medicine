@@ -11,20 +11,28 @@ class ViewController: UITableViewController, UISearchBarDelegate {
     @IBOutlet var searchBar: UISearchBar!
     
     // list to hold a list of all medicine
-    var medicine: [Medicine] = [
-        Medicine(name: "example medicine 1", file: ""),
-        Medicine(name: "example medicine 2", file: ""),
-        Medicine(name: "example medicine 3", file: "")
-    ]
+    var medicine: [MedicineListEntry] = []
     // list to hold search results filtered from original medicine list
-    var searchResults: [Medicine] = []
+    var searchResults: [MedicineListEntry] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         searchBar.delegate = self
         
-        searchResults = medicine
+        // parse medicine.json using helper functions
+        let data = readLocalFile(file: "medicine")
+        guard let data = data else {
+            return
+        }
+        
+        let medicineList = parse(data: data)
+        guard let medicineList = medicineList else {
+            return
+        }
+        
+        medicine = medicineList.medicine
+        searchResults = medicineList.medicine
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -52,6 +60,31 @@ class ViewController: UITableViewController, UISearchBarDelegate {
         })
         // reload tableview's data
         tableView.reloadData()
+    }
+    
+    // read local json file into data
+    func readLocalFile(file: String) -> Data? {
+        do {
+            if let filePath = Bundle.main.path(forResource: file, ofType: "json") {
+                let fileURL = URL(fileURLWithPath: filePath)
+                let data = try Data(contentsOf: fileURL)
+                return data
+            }
+        } catch {
+            print("\(error)")
+        }
+        return nil
+    }
+    
+    // parse JSON data into MedicineList type (to be used for the table view)
+    func parse(data: Data) -> MedicineList? {
+        do {
+            let decodedData = try JSONDecoder().decode(MedicineList.self, from: data)
+            return decodedData
+        } catch {
+            print("\(error)")
+        }
+        return nil
     }
 }
 

@@ -10,11 +10,11 @@ import Foundation
 // ----------------------------
 // medicine.json
 
-struct MedicineList {
-    let medicine: [Medicine]
+struct MedicineList: Decodable {
+    let medicine: [MedicineListEntry]
 }
 
-struct Medicine {
+struct MedicineListEntry: Decodable {
     let name: String
     let file: String
 }

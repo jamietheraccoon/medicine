@@ -62,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gly-wG-Obt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1498" y="30"/>
+            <point key="canvasLocation" x="1641" y="30"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gSO-WM-vY3">

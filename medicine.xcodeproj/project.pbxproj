@@ -14,6 +14,7 @@
 		E219D80A2744C463006D3BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E219D8092744C463006D3BCB /* Assets.xcassets */; };
 		E219D80D2744C463006D3BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E219D80B2744C463006D3BCB /* LaunchScreen.storyboard */; };
 		E219D8152744CD9F006D3BCB /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219D8142744CD9F006D3BCB /* Medicine.swift */; };
+		E26D7AC927506D6B0047DCEB /* medicine.json in Resources */ = {isa = PBXBuildFile; fileRef = E26D7AC827506D6B0047DCEB /* medicine.json */; };
 		E2926F37274999CF004F25F4 /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2926F36274999CF004F25F4 /* MedicineViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		E219D80C2744C463006D3BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E219D80E2744C463006D3BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E219D8142744CD9F006D3BCB /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		E26D7AC827506D6B0047DCEB /* medicine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = medicine.json; sourceTree = "<group>"; };
 		E2926F36274999CF004F25F4 /* MedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				E219D80E2744C463006D3BCB /* Info.plist */,
 				E219D8142744CD9F006D3BCB /* Medicine.swift */,
 				E2926F36274999CF004F25F4 /* MedicineViewController.swift */,
+				E26D7AC827506D6B0047DCEB /* medicine.json */,
 			);
 			path = medicine;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 				E219D80D2744C463006D3BCB /* LaunchScreen.storyboard in Resources */,
 				E219D80A2744C463006D3BCB /* Assets.xcassets in Resources */,
 				E219D8082744C462006D3BCB /* Main.storyboard in Resources */,
+				E26D7AC927506D6B0047DCEB /* medicine.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
