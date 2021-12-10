@@ -10,6 +10,8 @@ import UIKit
 class MedicineViewController : UIViewController {
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var concLabel: UILabel!
+    @IBOutlet var adultDosageLabel: UILabel!
+    @IBOutlet var pedsDosageLabel: UILabel!
     
     var medicine: MedicineListEntry!
     var medicineData: MedicineData!
@@ -33,6 +35,34 @@ class MedicineViewController : UIViewController {
         // set text of labels
         nameLabel.text = medicineData.name
         concLabel.text = medicineData.concentration
+        
+        // adult dosages label
+        if (medicineData.dose.adults.count > 0) {
+            let boldAttrs = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 20)]
+            let doseText = NSMutableAttributedString(string: "Adult Dosages", attributes: boldAttrs)
+            
+            for dose in medicineData.dose.adults {
+                doseText.append(NSMutableAttributedString(string: "\n\u{2022} " + dose))
+            }
+            
+            adultDosageLabel.attributedText = doseText
+        } else {
+            adultDosageLabel.text = ""
+        }
+        
+        // peds dosages label
+        if (medicineData.dose.peds.count > 0) {
+            let boldAttrs = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 20)]
+            let doseText = NSMutableAttributedString(string: "Peds Dosages", attributes: boldAttrs)
+            
+            for dose in medicineData.dose.peds {
+                doseText.append(NSMutableAttributedString(string: "\n\u{2022} " + dose))
+            }
+            
+            pedsDosageLabel.attributedText = doseText
+        } else {
+            pedsDosageLabel.text = ""
+        }
     }
     
     // read local json file into data

@@ -26,13 +26,13 @@ struct MedicineData: Decodable {
     let name: String
     let concentration: String
     let routes: [String]
+    let dose: Dosages
+    let indications: [String]
+    let contraindications: [String]
+    let notes: [String]
     
     struct Dosages: Decodable {
         let adults: [String]
         let peds: [String]
     }
-    
-    let indications: [String]
-    let contraindications: [String]
-    let notes: [String]
 }
