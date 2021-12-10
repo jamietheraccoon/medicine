@@ -17,6 +17,7 @@ class MedicineViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // get the data from the medicine's json file in the medicineData folder
         let data = readLocalFile(file: medicine.file)
         guard let data = data else {
             return
@@ -27,6 +28,9 @@ class MedicineViewController : UIViewController {
             return
         }
         
+        // set navigation title to medicine name
+        navigationItem.title = medicineData.name
+        // set text of labels
         nameLabel.text = medicineData.name
         concLabel.text = medicineData.concentration
     }
