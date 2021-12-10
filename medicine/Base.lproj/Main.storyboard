@@ -86,14 +86,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="routes label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rul-ha-0ki">
+                                <rect key="frame" x="16" y="449.66666666666669" width="343" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Nm4-vn-YfV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="aIL-e1-W5C" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="0HY-11-gKa"/>
+                            <constraint firstItem="Rul-ha-0ki" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="4Hq-2v-lOG"/>
+                            <constraint firstItem="Rul-ha-0ki" firstAttribute="top" secondItem="4Ix-Q9-7Bp" secondAttribute="bottom" constant="11" id="KUJ-wn-Q7L"/>
                             <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="4Ix-Q9-7Bp" secondAttribute="trailing" constant="16" id="LMf-Zp-1uo"/>
                             <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="aIL-e1-W5C" secondAttribute="trailing" constant="16" id="Mln-UU-arQ"/>
                             <constraint firstItem="G6b-pP-3T7" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="PrN-7f-axp"/>
+                            <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="Rul-ha-0ki" secondAttribute="trailing" constant="16" id="Rz7-8e-0tA"/>
                             <constraint firstItem="ToH-7W-ncJ" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="ToH-ow-278"/>
                             <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="LTS-Vv-JV6" secondAttribute="trailing" constant="16" id="VPr-Lf-t5Z"/>
                             <constraint firstItem="LTS-Vv-JV6" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="bjn-uH-Gg9"/>
@@ -113,6 +122,7 @@
                         <outlet property="concLabel" destination="aIL-e1-W5C" id="Cuw-8o-drR"/>
                         <outlet property="nameLabel" destination="ToH-7W-ncJ" id="upP-3o-ceU"/>
                         <outlet property="pedsDosageLabel" destination="4Ix-Q9-7Bp" id="ikH-AK-jVk"/>
+                        <outlet property="routesLabel" destination="Rul-ha-0ki" id="dZp-HT-3yx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gly-wG-Obt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

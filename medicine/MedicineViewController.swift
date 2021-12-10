@@ -12,6 +12,7 @@ class MedicineViewController : UIViewController {
     @IBOutlet var concLabel: UILabel!
     @IBOutlet var adultDosageLabel: UILabel!
     @IBOutlet var pedsDosageLabel: UILabel!
+    @IBOutlet var routesLabel: UILabel!
     
     var medicine: MedicineListEntry!
     var medicineData: MedicineData!
@@ -37,32 +38,11 @@ class MedicineViewController : UIViewController {
         concLabel.text = medicineData.concentration
         
         // adult dosages label
-        if (medicineData.dose.adults.count > 0) {
-            let boldAttrs = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 20)]
-            let doseText = NSMutableAttributedString(string: "Adult Dosages", attributes: boldAttrs)
-            
-            for dose in medicineData.dose.adults {
-                doseText.append(NSMutableAttributedString(string: "\n\u{2022} " + dose))
-            }
-            
-            adultDosageLabel.attributedText = doseText
-        } else {
-            adultDosageLabel.text = ""
-        }
-        
+        bulletPointList(medicineData.dose.adults, label: adultDosageLabel, titleString: "Adult Dosages")
         // peds dosages label
-        if (medicineData.dose.peds.count > 0) {
-            let boldAttrs = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 20)]
-            let doseText = NSMutableAttributedString(string: "Peds Dosages", attributes: boldAttrs)
-            
-            for dose in medicineData.dose.peds {
-                doseText.append(NSMutableAttributedString(string: "\n\u{2022} " + dose))
-            }
-            
-            pedsDosageLabel.attributedText = doseText
-        } else {
-            pedsDosageLabel.text = ""
-        }
+        bulletPointList(medicineData.dose.peds, label: pedsDosageLabel, titleString: "Peds Dosages")
+        // routes label
+        bulletPointList(medicineData.routes, label: routesLabel, titleString: "Routes")
     }
     
     // read local json file into data
@@ -88,5 +68,20 @@ class MedicineViewController : UIViewController {
             print("\(error)")
         }
         return nil
+    }
+    
+    func bulletPointList(_ lst: [String], label: UILabel, titleString: String) {
+        if (lst.count > 0) {
+            let boldAttrs = [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 20)]
+            let doseText = NSMutableAttributedString(string: titleString, attributes: boldAttrs)
+            
+            for item in lst {
+                doseText.append(NSMutableAttributedString(string: "\n\u{2022} " + item))
+            }
+            
+            label.attributedText = doseText
+        } else {
+            label.text = ""
+        }
     }
 }
