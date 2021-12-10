@@ -28,10 +28,7 @@ class MedicineViewController : UIViewController {
         }
         
         nameLabel.text = medicineData.name
-        concLabel.numberOfLines = 0
-        concLabel.text = medicineData.concentration + "\n second line test"
-        concLabel.sizeToFit()
-        
+        concLabel.text = medicineData.concentration
     }
     
     // read local json file into data
