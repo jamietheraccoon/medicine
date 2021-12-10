@@ -2,15 +2,15 @@
     "medicine": [
         {
             "name": "acetaminophen",
-            "file": ""
+            "file": "acetaminophen"
         },
         {
             "name": "adenosine",
-            "file": ""
+            "file": "_example"
         },
         {
             "name": "albuterol (neb.)",
-            "file": ""
+            "file": "_example"
         }
     ]
 }

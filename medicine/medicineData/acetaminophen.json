@@ -1,0 +1,20 @@
+{
+    "name": "Acetaminophen",
+    "concentration": "960mg/30ml (32mg/ml)",
+    "dose": {
+        "adults": [],
+        "peds": ["10-15 mg/kg"]
+    },
+    "routes": ["PO"],
+    "indications": [
+        "Seizures",
+        "Fever"
+    ],
+    "contraindications": [
+        "Liver disease",
+        "Tylenol given with 4 hours"
+    ],
+    "notes": [
+        "Do not give it taking other medication containing acetaminophen"
+    ]
+}
