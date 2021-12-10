@@ -17,7 +17,7 @@ class MedicineViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let data = readLocalFile(file: medicine.name)
+        let data = readLocalFile(file: medicine.file)
         guard let data = data else {
             return
         }

@@ -6,11 +6,11 @@
         },
         {
             "name": "adenosine",
-            "file": "_example"
+            "file": "example"
         },
         {
             "name": "albuterol (neb.)",
-            "file": "_example"
+            "file": "example"
         }
     ]
 }

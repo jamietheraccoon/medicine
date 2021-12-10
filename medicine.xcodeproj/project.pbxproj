@@ -15,7 +15,7 @@
 		E219D80D2744C463006D3BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E219D80B2744C463006D3BCB /* LaunchScreen.storyboard */; };
 		E219D8152744CD9F006D3BCB /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219D8142744CD9F006D3BCB /* Medicine.swift */; };
 		E2654D452760835A00D03CF5 /* acetaminophen.json in Resources */ = {isa = PBXBuildFile; fileRef = E2654D442760835A00D03CF5 /* acetaminophen.json */; };
-		E2654D47276083E200D03CF5 /* _example.json in Resources */ = {isa = PBXBuildFile; fileRef = E2654D46276083E200D03CF5 /* _example.json */; };
+		E2654D47276083E200D03CF5 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = E2654D46276083E200D03CF5 /* example.json */; };
 		E26D7AC927506D6B0047DCEB /* medicine.json in Resources */ = {isa = PBXBuildFile; fileRef = E26D7AC827506D6B0047DCEB /* medicine.json */; };
 		E2926F37274999CF004F25F4 /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2926F36274999CF004F25F4 /* MedicineViewController.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +31,7 @@
 		E219D80E2744C463006D3BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E219D8142744CD9F006D3BCB /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
 		E2654D442760835A00D03CF5 /* acetaminophen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = acetaminophen.json; sourceTree = "<group>"; };
-		E2654D46276083E200D03CF5 /* _example.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = _example.json; sourceTree = "<group>"; };
+		E2654D46276083E200D03CF5 /* example.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
 		E26D7AC827506D6B0047DCEB /* medicine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = medicine.json; sourceTree = "<group>"; };
 		E2926F36274999CF004F25F4 /* MedicineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				E2654D442760835A00D03CF5 /* acetaminophen.json */,
-				E2654D46276083E200D03CF5 /* _example.json */,
+				E2654D46276083E200D03CF5 /* example.json */,
 			);
 			path = medicineData;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2654D47276083E200D03CF5 /* _example.json in Resources */,
+				E2654D47276083E200D03CF5 /* example.json in Resources */,
 				E219D80D2744C463006D3BCB /* LaunchScreen.storyboard in Resources */,
 				E219D80A2744C463006D3BCB /* Assets.xcassets in Resources */,
 				E219D8082744C462006D3BCB /* Main.storyboard in Resources */,

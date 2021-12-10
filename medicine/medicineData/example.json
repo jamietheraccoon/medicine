@@ -1,0 +1,12 @@
+{
+    "name": "Example medicine",
+    "concentration": "Example concentration",
+    "dose": {
+        "adults": ["Example adult dose"],
+        "peds": ["Example peds dose"]
+    },
+    "routes": ["Example route"],
+    "indications": ["Example indication"],
+    "contraindications": ["Example contraindications"],
+    "notes": ["Example note/side effect"]
+}
