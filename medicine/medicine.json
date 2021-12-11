@@ -1,6 +1,5 @@
 {
-    "medicine": [
-        {
+    "medicine": [{
             "name": "acetaminophen",
             "file": "acetaminophen"
         },
@@ -10,6 +9,130 @@
         },
         {
             "name": "albuterol (neb.)",
+            "file": "example"
+        },
+        {
+            "name": "atropine (preload)",
+            "file": "example"
+        },
+        {
+            "name": "atropine (high dose)",
+            "file": "example"
+        },
+        {
+            "name": "calcium chloride",
+            "file": "example"
+        },
+        {
+            "name": "dextrose (d10)",
+            "file": "example"
+        },
+        {
+            "name": "dextrose (d50)",
+            "file": "example"
+        },
+        {
+            "name": "diltiazem",
+            "file": "example"
+        },
+        {
+            "name": "diphenhydramine (benadryl)",
+            "file": "example"
+        },
+        {
+            "name": "epi 1:1,000",
+            "file": "example"
+        },
+        {
+            "name": "epi 1:10,000",
+            "file": "example"
+        },
+        {
+            "name": "epi (racemic)",
+            "file": "example"
+        },
+        {
+            "name": "etomidate",
+            "file": "example"
+        },
+        {
+            "name": "fentanyl",
+            "file": "example"
+        },
+        {
+            "name": "furosemide (lasix)",
+            "file": "example"
+        },
+        {
+            "name": "glucagon",
+            "file": "example"
+        },
+        {
+            "name": "ipratropium",
+            "file": "example"
+        },
+        {
+            "name": "ketamine",
+            "file": "example"
+        },
+        {
+            "name": "leviteracitam (keppra)",
+            "file": "example"
+        },
+        {
+            "name": "levophed",
+            "file": "example"
+        },
+        {
+            "name": "lidocaine (preload)",
+            "file": "example"
+        },
+        {
+            "name": "lidocaine (drip)",
+            "file": "example"
+        },
+        {
+            "name": "magnesium sulfate",
+            "file": "example"
+        },
+        {
+            "name": "metoprolol",
+            "file": "example"
+        },
+        {
+            "name": "midazolam (versed)",
+            "file": "example"
+        },
+        {
+            "name": "narcan",
+            "file": "example"
+        },
+        {
+            "name": "nitroglycerin",
+            "file": "example"
+        },
+        {
+            "name": "ondansetron (zofran)",
+            "file": "example"
+        },
+        {
+            "name": "oxytocin (pitocin)",
+            "file": "example"
+        },
+        {
+            "name": "procainamide",
+            "file": "example"
+        },
+        {
+            "name": "rocuronium",
+            "file": "example"
+        },
+        {
+            "name": "sodium bicarb",
+            "file": "example"
+        },
+        {
+            "name": "succinylcholine",
             "file": "example"
         }
     ]
