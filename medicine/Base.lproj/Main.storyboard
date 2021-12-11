@@ -92,24 +92,51 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="indications label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJG-7p-ftE">
+                                <rect key="frame" x="16" y="481" width="343" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="contraindications label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxL-lJ-OuV">
+                                <rect key="frame" x="16" y="512.33333333333337" width="343" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="notes label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Voy-Rc-d9L">
+                                <rect key="frame" x="16" y="543.66666666666663" width="343" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Nm4-vn-YfV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="aIL-e1-W5C" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="0HY-11-gKa"/>
+                            <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="uxL-lJ-OuV" secondAttribute="trailing" constant="16" id="24R-WX-flX"/>
+                            <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="JJG-7p-ftE" secondAttribute="trailing" constant="16" id="2zG-dx-cbV"/>
                             <constraint firstItem="Rul-ha-0ki" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="4Hq-2v-lOG"/>
                             <constraint firstItem="Rul-ha-0ki" firstAttribute="top" secondItem="4Ix-Q9-7Bp" secondAttribute="bottom" constant="11" id="KUJ-wn-Q7L"/>
                             <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="4Ix-Q9-7Bp" secondAttribute="trailing" constant="16" id="LMf-Zp-1uo"/>
+                            <constraint firstItem="JJG-7p-ftE" firstAttribute="top" secondItem="Rul-ha-0ki" secondAttribute="bottom" constant="11" id="Mll-O7-2Jc"/>
                             <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="aIL-e1-W5C" secondAttribute="trailing" constant="16" id="Mln-UU-arQ"/>
                             <constraint firstItem="G6b-pP-3T7" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="PrN-7f-axp"/>
                             <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="Rul-ha-0ki" secondAttribute="trailing" constant="16" id="Rz7-8e-0tA"/>
                             <constraint firstItem="ToH-7W-ncJ" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="ToH-ow-278"/>
                             <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="LTS-Vv-JV6" secondAttribute="trailing" constant="16" id="VPr-Lf-t5Z"/>
+                            <constraint firstItem="Voy-Rc-d9L" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="Wp2-jh-6I9"/>
+                            <constraint firstItem="Voy-Rc-d9L" firstAttribute="top" secondItem="uxL-lJ-OuV" secondAttribute="bottom" constant="11" id="a7R-dv-YTF"/>
                             <constraint firstItem="LTS-Vv-JV6" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="bjn-uH-Gg9"/>
                             <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="ToH-7W-ncJ" secondAttribute="trailing" constant="16" id="dqk-ga-4Aq"/>
                             <constraint firstItem="G6b-pP-3T7" firstAttribute="top" secondItem="aIL-e1-W5C" secondAttribute="bottom" constant="8" symbolic="YES" id="eLL-xw-cAr"/>
                             <constraint firstItem="aIL-e1-W5C" firstAttribute="top" secondItem="ToH-7W-ncJ" secondAttribute="bottom" constant="8" symbolic="YES" id="fXU-pK-P9Y"/>
+                            <constraint firstItem="uxL-lJ-OuV" firstAttribute="top" secondItem="JJG-7p-ftE" secondAttribute="bottom" constant="11" id="hGq-tB-Fzv"/>
+                            <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="Voy-Rc-d9L" secondAttribute="trailing" constant="16" id="hil-sc-rr5"/>
                             <constraint firstItem="Nm4-vn-YfV" firstAttribute="trailing" secondItem="G6b-pP-3T7" secondAttribute="trailing" constant="16" id="i1X-ar-AFQ"/>
+                            <constraint firstItem="JJG-7p-ftE" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="jpj-Ut-hsd"/>
+                            <constraint firstItem="uxL-lJ-OuV" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="kzh-xN-dr7"/>
                             <constraint firstItem="4Ix-Q9-7Bp" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" constant="16" id="q8U-wG-xBw"/>
                             <constraint firstItem="4Ix-Q9-7Bp" firstAttribute="top" secondItem="LTS-Vv-JV6" secondAttribute="bottom" constant="11" id="qs6-BT-4ye"/>
                             <constraint firstItem="LTS-Vv-JV6" firstAttribute="top" secondItem="G6b-pP-3T7" secondAttribute="bottom" constant="11" id="uym-uR-nPq"/>
@@ -120,7 +147,10 @@
                     <connections>
                         <outlet property="adultDosageLabel" destination="LTS-Vv-JV6" id="vJq-d4-mbW"/>
                         <outlet property="concLabel" destination="aIL-e1-W5C" id="Cuw-8o-drR"/>
+                        <outlet property="contraindicationsLabel" destination="uxL-lJ-OuV" id="GeP-rS-V9L"/>
+                        <outlet property="indicationsLabel" destination="JJG-7p-ftE" id="lc9-Rn-SX7"/>
                         <outlet property="nameLabel" destination="ToH-7W-ncJ" id="upP-3o-ceU"/>
+                        <outlet property="notesLabel" destination="Voy-Rc-d9L" id="QNQ-04-k90"/>
                         <outlet property="pedsDosageLabel" destination="4Ix-Q9-7Bp" id="ikH-AK-jVk"/>
                         <outlet property="routesLabel" destination="Rul-ha-0ki" id="dZp-HT-3yx"/>
                     </connections>
@@ -149,7 +179,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="example" width="982" height="940"/>
+        <image name="example" width="1000" height="1080"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

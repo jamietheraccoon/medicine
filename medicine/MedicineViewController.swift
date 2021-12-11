@@ -13,6 +13,9 @@ class MedicineViewController : UIViewController {
     @IBOutlet var adultDosageLabel: UILabel!
     @IBOutlet var pedsDosageLabel: UILabel!
     @IBOutlet var routesLabel: UILabel!
+    @IBOutlet var indicationsLabel: UILabel!
+    @IBOutlet var contraindicationsLabel: UILabel!
+    @IBOutlet var notesLabel: UILabel!
     
     var medicine: MedicineListEntry!
     var medicineData: MedicineData!
@@ -43,6 +46,12 @@ class MedicineViewController : UIViewController {
         bulletPointList(medicineData.dose.peds, label: pedsDosageLabel, titleString: "Peds Dosages")
         // routes label
         bulletPointList(medicineData.routes, label: routesLabel, titleString: "Routes")
+        // indications label
+        bulletPointList(medicineData.indications, label: indicationsLabel, titleString: "Indications")
+        // contraindications label
+        bulletPointList(medicineData.contraindications, label: contraindicationsLabel, titleString: "Contraindications")
+        // notes/side effects label
+        bulletPointList(medicineData.notes, label: notesLabel, titleString: "Notes/side effects")
     }
     
     // read local json file into data
