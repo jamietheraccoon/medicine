@@ -1,0 +1,31 @@
+{
+    "name": "Adenosine",
+    "concentration": "6mg/ml (3mg/ml)",
+    "dose": {
+        "adults": [
+            "1st dose - 6mg",
+            "2nd/3rd dose - 12mg"
+        ],
+        "peds": [
+            "0.1mg/kg",
+            "Repeat dose of 0.2mg/kg"
+        ]
+    },
+    "routes": [
+        "Rapid IV push",
+        "Rapid IV push with 20cc flush"
+    ],
+    "indications": [
+        "PSVT",
+        "Regular Monomorphic wide complex tachycardia"
+    ],
+    "contraindications": [
+        "VT",
+        "WPW"
+    ],
+    "notes": [
+        "Asystole",
+        "Bronchoconstriction in asthma patients",
+        "Caution with Tegretol, discuss with M1 Dr."
+    ]
+}

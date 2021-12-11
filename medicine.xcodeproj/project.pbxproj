@@ -14,6 +14,7 @@
 		E219D80A2744C463006D3BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E219D8092744C463006D3BCB /* Assets.xcassets */; };
 		E219D80D2744C463006D3BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E219D80B2744C463006D3BCB /* LaunchScreen.storyboard */; };
 		E219D8152744CD9F006D3BCB /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219D8142744CD9F006D3BCB /* Medicine.swift */; };
+		E251C73E27644DBC009F7EC5 /* adenosine.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C73D27644DBC009F7EC5 /* adenosine.json */; };
 		E2654D452760835A00D03CF5 /* acetaminophen.json in Resources */ = {isa = PBXBuildFile; fileRef = E2654D442760835A00D03CF5 /* acetaminophen.json */; };
 		E2654D47276083E200D03CF5 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = E2654D46276083E200D03CF5 /* example.json */; };
 		E26D7AC927506D6B0047DCEB /* medicine.json in Resources */ = {isa = PBXBuildFile; fileRef = E26D7AC827506D6B0047DCEB /* medicine.json */; };
@@ -30,6 +31,7 @@
 		E219D80C2744C463006D3BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E219D80E2744C463006D3BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E219D8142744CD9F006D3BCB /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		E251C73D27644DBC009F7EC5 /* adenosine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = adenosine.json; sourceTree = "<group>"; };
 		E2654D442760835A00D03CF5 /* acetaminophen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = acetaminophen.json; sourceTree = "<group>"; };
 		E2654D46276083E200D03CF5 /* example.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
 		E26D7AC827506D6B0047DCEB /* medicine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = medicine.json; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				E2654D442760835A00D03CF5 /* acetaminophen.json */,
 				E2654D46276083E200D03CF5 /* example.json */,
+				E251C73D27644DBC009F7EC5 /* adenosine.json */,
 			);
 			path = medicineData;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2654D47276083E200D03CF5 /* example.json in Resources */,
+				E251C73E27644DBC009F7EC5 /* adenosine.json in Resources */,
 				E219D80D2744C463006D3BCB /* LaunchScreen.storyboard in Resources */,
 				E219D80A2744C463006D3BCB /* Assets.xcassets in Resources */,
 				E219D8082744C462006D3BCB /* Main.storyboard in Resources */,
