@@ -1,0 +1,29 @@
+{
+    "name": "Diltiazem",
+    "concentration": "25mg/5ml (5mg/ml)",
+    "dose": {
+        "adults": [
+            "1st: 20mg (0.25mg/kg)",
+            "2nd: 25mg (0.35mg/kg) after 15 min",
+            "1/2 dose for the elderly"
+        ],
+        "peds": []
+    },
+    "routes": [
+        "IV Drip in 50cc",
+        "NS bag over 2 minutes"
+    ],
+    "indications": [
+        "A-Flutter",
+        "A-Fib",
+        "SVT (refractory to Adenosine)"
+    ],
+    "contraindications": [
+        "\u2193 BP",
+        "WPW",
+        "Shock"
+    ],
+    "notes": [
+        "If \u2193 BP, treat with 500mL IV fluid bolus"
+    ]
+}

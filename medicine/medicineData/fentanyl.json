@@ -1,0 +1,35 @@
+{
+    "name": "Fentanyl",
+    "concentration": "100mcg/2ml (50mcg/ml)",
+    "dose": {
+        "adults": [
+            "Increments of 25 - 50mcg (max 200mcg)"
+        ],
+        "peds": [
+            "1st dose: 1mcg/kg (max 50)",
+            "2nd dose: (after 5 mins) 1mcg/kg (max total 200mcg) for continued pain"
+        ]
+    },
+    "routes": [
+        "IVP",
+        "IM",
+        "IO",
+        "IN"
+    ],
+    "indications": [
+        "Pain relief",
+        "Adjunct to sedation"
+    ],
+    "contraindications": [
+        "Hypovolemia",
+        "Hypotension",
+        "Allergy",
+        "\u2193 BP"
+    ],
+    "notes": [
+        "Rasp Depression",
+        "Chest muscle rigidity",
+        "Nausea"
+    ]
+}
+

@@ -1,0 +1,24 @@
+{
+    "name": "Lidocaine (Preload)",
+    "concentration": "100mg/5ml (20mg/ml)",
+    "dose": {
+        "adults": [
+            "1-1.5mg/kg, repeat dose 0.5 - 0.5mg/kg (max 3mg/kg)",
+            "40mg local anesthetic"
+        ],
+        "peds": [
+            "1mg/kg",
+            "0.5mg/kg (max 40mg)"
+        ]
+    },
+    "routes": [
+        "IVP",
+        "I.O."
+    ],
+    "indications": [
+        "VF, VT, Ventricular Ectopy",
+        "Local anesthetic for I.O."
+    ],
+    "contraindications": ["Heart Block"],
+    "notes": ["\u2193 BP"]
+}

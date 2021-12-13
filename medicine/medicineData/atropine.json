@@ -1,0 +1,33 @@
+{
+    "name": "Atropine",
+    "concentration": "1mg/10ml (0.1mg/ml)",
+    "dose": {
+        "adults": [
+            "0.5 - 1mg (max 3mg IV)",
+            "0.4 - 1mg",
+            "2mg q 5-15 min (max 50mg)"
+        ],
+        "peds": [
+            "0.02 mg/kg IV",
+            "0.2 mg in neb (once only",
+            "7-18kg: 0.5 mg",
+            "19-41kg: 1 mg",
+            ">41kg: 2 mg",
+            "All repeated every 5-15 min"
+        ]
+    },
+    "routes": ["IV", "Neb/ETT", "IVP"],
+    "indications": [
+        "Bradycardia",
+        "Bronchospasm",
+        "OP/carbamate/nerve poisoning"
+    ],
+    "contraindications": [
+        "MI",
+        "Heart Transplant"
+    ],
+    "notes": [
+        "No severe side effects"
+    ]
+}
+

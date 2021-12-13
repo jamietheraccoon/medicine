@@ -1,0 +1,31 @@
+{
+    "name": "Etomidate",
+    "concentration": "40mg/20ml (2mg/ml)",
+    "dose": {
+        "adults": [
+            "0.1 - 0.3mg/kg (1/2 if elderly or \u2193 BP)",
+            "0.1mg/kg (one dose only)"
+        ],
+        "peds": ["0.2 mg/kg"]
+    },
+    "routes": [
+        "IVP",
+        "Slow IVP"
+    ],
+    "indications": [
+        "Induction",
+        "Rapid sequence intubation",
+        "Deep sedation"
+    ],
+    "contraindications": [
+        "No field contraindications"
+    ],
+    "notes": [
+        "NOT INDICATED FOR CHILDREN < 10 YEARS OLD EXCEPT AFTER APPROVAL BY MEDICAL CONTROL",
+        "Nausea",
+        "Laryngospasms",
+        "Myocionic jerks",
+        "Apnea"
+    ]
+}
+

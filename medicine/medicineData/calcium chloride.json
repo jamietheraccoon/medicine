@@ -1,0 +1,26 @@
+{
+    "name": "Calcium Chloride",
+    "concentration": "1gm/10ml (100mg/ml)",
+    "dose": {
+        "adults": ["1g (may repeat for Ca++ Chan. Block OD)"],
+        "peds": ["20mg/kg"]
+    },
+    "routes": ["IVP thru well-flushed line"],
+    "indications": [
+        "Hyperkalemia",
+        "Mag. Sulfate OD",
+        "Calcium Channel Blocker OD",
+        "Hydrofluoric Acid Exposure"
+    ],
+    "contraindications": [
+        "VF",
+        "Digitalis toxicity"
+    ],
+    "notes": [
+        "Arrhythmias",
+        "\u2193 BP",
+        "Necrosis at injection site",
+        "Use separate IV line for NaHCO3"
+    ]
+}
+

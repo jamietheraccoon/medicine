@@ -1,0 +1,38 @@
+{
+    "name": "EPI 1:10,000",
+    "concentration": "1mg/10ml",
+    "dose": {
+        "adults": [
+            "0.3 - 0.5mg IV - dilute with L.R. prior to administration",
+            "0.5 - 1mg q 3 to 5 minutes",
+            "Double dose if given via ETT"
+        ],
+        "peds": [
+            "0.01mg/kg",
+            "Drip: 1mg in D5W, titrate",
+            "ETT: double dose if no IV"
+        ]
+    },
+    "routes": [
+        "IV",
+        "IVP",
+        "Drip",
+        "ETT"
+    ],
+    "indications": [
+        "Anaphylaxis unresponsive to fluids and IM Epi",
+        "VF",
+        "Pulseless VT",
+        "PEA",
+        "Asystole",
+        "Bradycardia"
+    ],
+    "contraindications": [
+        "None"
+    ],
+    "notes": [
+        "\u2191 HR",
+        "\u2191 BP"
+    ]
+}
+

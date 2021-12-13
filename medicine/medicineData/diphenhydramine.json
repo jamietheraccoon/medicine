@@ -1,0 +1,30 @@
+{
+    "name": "Diphenhydramine (Benadryl)",
+    "concentration": "50mg/ml",
+    "dose": {
+        "adults": [
+            "25 - 50mg"
+        ],
+        "peds": [
+            "1mg/kg"
+        ]
+    },
+    "routes": [
+        "IV",
+        "IVP",
+        "IM"
+    ],
+    "indications": [
+        "Anaphylaxis",
+        "Allergic burn",
+        "Dystonic Reactions from meds"
+    ],
+    "contraindications": [
+        "Allergy"
+    ],
+    "notes": [
+        "Sedation",
+        "Note: Excreted in breast milk"
+    ]
+}
+

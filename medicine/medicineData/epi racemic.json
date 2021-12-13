@@ -1,0 +1,16 @@
+{
+    "name": "EPI (Racemic)",
+    "concentration": "11.25mg/0.5ml",
+    "dose": {
+        "adults": [],
+        "peds": ["11.25mg with 3ml NaCl"]
+    },
+    "routes": ["Nebulizer"],
+    "indications": ["Croup"],
+    "contraindications": ["None"],
+    "notes": [
+        "\u2191 HR",
+        "\u2191 BP"
+    ]
+}
+

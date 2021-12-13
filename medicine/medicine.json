@@ -9,131 +9,127 @@
         },
         {
             "name": "albuterol (neb.)",
-            "file": "example"
+            "file": "albuterol"
         },
         {
-            "name": "atropine (preload)",
-            "file": "example"
-        },
-        {
-            "name": "atropine (high dose)",
-            "file": "example"
+            "name": "atropine",
+            "file": "atropine"
         },
         {
             "name": "calcium chloride",
-            "file": "example"
+            "file": "calcium chloride"
         },
         {
             "name": "dextrose (d10)",
-            "file": "example"
+            "file": "dextrose d10"
         },
         {
             "name": "dextrose (d50)",
-            "file": "example"
+            "file": "dextrose d50"
         },
         {
             "name": "diltiazem",
-            "file": "example"
+            "file": "diltiazem"
         },
         {
             "name": "diphenhydramine (benadryl)",
-            "file": "example"
+            "file": "diphenhydramine"
         },
         {
             "name": "epi 1:1,000",
-            "file": "example"
+            "file": "epi 1000"
         },
         {
             "name": "epi 1:10,000",
-            "file": "example"
+            "file": "epi 10000"
         },
         {
             "name": "epi (racemic)",
-            "file": "example"
+            "file": "epi racemic"
         },
         {
             "name": "etomidate",
-            "file": "example"
+            "file": "etomidate"
         },
         {
             "name": "fentanyl",
-            "file": "example"
+            "file": "fentanyl"
         },
         {
             "name": "furosemide (lasix)",
-            "file": "example"
+            "file": "furosemide"
         },
         {
             "name": "glucagon",
-            "file": "example"
+            "file": "glucagon"
         },
         {
             "name": "ipratropium",
-            "file": "example"
+            "file": "ipratropium"
         },
         {
             "name": "ketamine",
-            "file": "example"
+            "file": "ketamine"
         },
         {
             "name": "leviteracitam (keppra)",
-            "file": "example"
+            "file": "leviteracitam"
         },
         {
             "name": "levophed",
-            "file": "example"
+            "file": "levophed"
         },
         {
             "name": "lidocaine (preload)",
-            "file": "example"
+            "file": "lidocaine preload"
         },
         {
             "name": "lidocaine (drip)",
-            "file": "example"
+            "file": "lidocaine drip"
         },
         {
             "name": "magnesium sulfate",
-            "file": "example"
+            "file": "magnesium sulfate"
         },
         {
             "name": "metoprolol",
-            "file": "example"
+            "file": "metoprolol"
         },
         {
             "name": "midazolam (versed)",
-            "file": "example"
+            "file": "midazolam"
         },
         {
             "name": "narcan",
-            "file": "example"
+            "file": "narcan"
         },
         {
             "name": "nitroglycerin",
-            "file": "example"
+            "file": "nitroglycerin"
         },
         {
             "name": "ondansetron (zofran)",
-            "file": "example"
+            "file": "ondansetron"
         },
         {
             "name": "oxytocin (pitocin)",
-            "file": "example"
+            "file": "oxytocin"
         },
         {
             "name": "procainamide",
-            "file": "example"
+            "file": "procainamide"
         },
         {
             "name": "rocuronium",
-            "file": "example"
+            "file": "rocuronium"
         },
         {
             "name": "sodium bicarb",
-            "file": "example"
+            "file": "sodium bicarb"
         },
         {
             "name": "succinylcholine",
-            "file": "example"
+            "file": "succinylcholine"
         }
     ]
 }

@@ -1,0 +1,26 @@
+{
+    "name": "Furosemide (Lasix)",
+    "concentration": "100mg/10ml (10mg/ml)",
+    "dose": {
+        "adults": [
+            "20 - 40mg if not currently taking, or daily dose IV up to 120mg"
+        ],
+        "peds": ["1mg/kg"]
+    },
+    "routes": [
+        "IV",
+        "IVP"
+    ],
+    "indications": [
+        "Pulmonary Edema",
+        "CHF"
+    ],
+    "contraindications": [
+        "\u2193 BP",
+        "Sepsis"
+    ],
+    "notes": [
+        "\u2193 BP"
+    ]
+}
+

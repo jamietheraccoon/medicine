@@ -1,0 +1,26 @@
+{
+    "name": "Oxytocin (Pitocin)",
+    "concentration": "10 units/ml",
+    "dose": {
+        "adults": [
+            "IV: 10 units in 500cc LR, wide open",
+            "IM: 10 units after delivery of anterior shoulder",
+            "IV drip: 40 units in 1000cc LR, titrate to effect"
+        ],
+        "peds": []
+    },
+    "routes": ["IV or IM, then IV drip"],
+    "indications": [
+        "Prophylactic",
+        "Post-Partum Hemorrhage"
+    ],
+    "contraindications": [
+        "Uterine inversion",
+        "Incomplete delivery (e.g. more than one infant)"
+    ],
+    "notes": [
+        "\u2193 BP",
+        "\u2191 HR"
+    ]
+}
+

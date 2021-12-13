@@ -1,0 +1,16 @@
+{
+    "name": "Dextrose (D10)",
+    "concentration": "1/2 Amp of D50 (12.5g) in 250ml D5W: 25g/250ml",
+    "dose": {
+        "adults": [],
+        "peds": [
+            "< 4kg: 2ml/kg IV/IO",
+            "> 4kg: 5ml/kg IV/IO"
+        ]
+    },
+    "routes": ["IVP"],
+    "indications": ["Hypoglycemia"],
+    "contraindications": ["Intracranial/intraspinal hemorrhage"],
+    "notes": ["IV site Phlebitis/Thrombosis/Extravasation"]
+}
+

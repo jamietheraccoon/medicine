@@ -1,0 +1,26 @@
+{
+    "name": "Albuterol (Neb.)",
+    "concentration": "2.5mg/3ml (0.083%)",
+    "dose": {
+        "adults": [
+            "One vial of premixed solution, may repeat"
+        ],
+        "peds": [
+            "Half vial diluted with saline (repeat as needed)"
+        ]
+    },
+    "routes": ["Nebulizer"],
+    "indications": [
+        "Bronchospasms",
+        "Hyperkalemia"
+    ],
+    "contraindications": [
+        "Allergy",
+        "Caution pts w/ CAD"
+    ],
+    "notes": [
+        "\u2191 HR",
+        "\u2191 BP"
+    ]
+}
+

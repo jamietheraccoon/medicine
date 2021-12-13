@@ -1,0 +1,13 @@
+{
+    "name": "Dextrose (D50)",
+    "concentration": "25g/50ml",
+    "dose": {
+        "adults": ["12.5g - 25g (x2 if needed)"],
+        "peds": []
+    },
+    "routes": ["IVP"],
+    "indications": ["Hypoglycemia"],
+    "contraindications": ["Intracranial/intraspinal hemorrhage"],
+    "notes": ["IV site phlebitis, thrombosis, extravasation"]
+}
+

@@ -1,0 +1,19 @@
+{
+    "name": "Levophed",
+    "concentration": "4mg/4ml (1mg/ml)",
+    "dose": {
+        "adults": ["4 - 8mg in 250 ml D5W - Titrate BP to 90"],
+        "peds": []
+    },
+    "routes": ["IV Drip"],
+    "indications": ["Shock"],
+    "contraindications": [
+        "\u2193 BP due to hypovolemia - USE FLUIDS",
+        "Caution in patients taking MAOI's",
+        "Tricyclics"
+    ],
+    "notes": [
+        "Arrhythmias and \u2191 BP"
+    ]
+}
+

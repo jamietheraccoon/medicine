@@ -1,0 +1,23 @@
+{
+    "name": "Leviteracitam (Keppra)",
+    "concentration": "1500mg/100mL",
+    "dose": {
+        "adults": ["1500mg in 100mL, over 5 minutes max 2 doses"],
+        "peds": ["30mg/kg up to max of 1500mg over 5 minutes in 100mL piggyback"]
+    },
+    "routes": [
+        "IV",
+        "IO"
+    ],
+    "indications": [
+        "Status epilepticus per Plan S",
+        "Refractory to Versed"
+    ],
+    "contraindications": [
+        "None"
+    ],
+    "notes": [
+        "Somnolence",
+        "Confusion"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "EPI 1:1,000",
+    "concentration": "1mg/ml",
+    "dose": {
+        "adults": [
+            "0.3 - 0.5mg (thigh preferred)"
+        ],
+        "peds": [
+            "<26kg: 0.15mg IM",
+            ">26kg: 0.3mg IM"
+        ]
+    },
+    "routes": ["IM"],
+    "indications": [
+        "Anaphylaxis",
+        "Asthma"
+    ],
+    "contraindications": [
+        "None if Anaphylaxis",
+        "Caution w/ CAD"
+    ],
+    "notes": [
+        "\u2191 HR",
+        "\u2191 BP",
+        "Headache"
+    ]
+}
+

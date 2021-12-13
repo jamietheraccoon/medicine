@@ -1,0 +1,29 @@
+{
+    "name": "Glucagon",
+    "concentration": "1mg",
+    "dose": {
+        "adults": [
+            "1mg IM - 2nd dose if needed",
+            "2 - 10mg IV (for OD) *Consult M1 Dr*"
+        ],
+        "peds": [
+            ">20kg: 1mg",
+            "<20kg: 0.5mg"
+        ]
+    },
+    "routes": ["IM", "IV"],
+    "indications": [
+        "Hypoglycemia",
+        "Hypoglycemia w/o IV",
+        "Beta/Cal. Channel Blocker OD"
+    ],
+    "contraindications": [
+        "Allergy",
+        "Pheochromocytoma (Adrenal gland tumor)"
+    ],
+    "notes": [
+        "Vomiting",
+        "\u2191 BP",
+        "\u2191 HR"
+    ]
+}

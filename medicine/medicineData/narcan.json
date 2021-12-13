@@ -1,0 +1,29 @@
+{
+    "name": "Narcan",
+    "concentration": "0.4mg/ml",
+    "dose": {
+        "adults": [
+            "0.2 - 0.4mg (max 10mg)",
+            "0.8mg/nostril"
+        ],
+        "peds": [
+            "<26kg: 0.1 mg/kg",
+            ">26kg: 2 mg"
+        ]
+    },
+    "routes": [
+        "IVP",
+        "IM",
+        "ETT",
+        "IN"
+    ],
+    "indications": ["Opiate OD"],
+    "contraindications": ["No field contraindications"],
+    "notes": [
+        "Withdrawal symptoms",
+        "N/V",
+        "HTN",
+        "Pulmonary Edema"
+    ]
+}
+

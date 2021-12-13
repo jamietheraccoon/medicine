@@ -1,0 +1,35 @@
+{
+    "name": "Procainamide",
+    "concentration": "1g/10ml (100mg/ml)",
+    "dose": {
+        "adults": [
+            "Cardiac arrest: 100mg IV q 2 minutes up to 500mg",
+            "Perfusing Rhythm: 20mg/min. IV up to 17 mg/kg followed by drip 1-4 mg/min"
+        ],
+        "peds": [
+            "Perfusing rhythm: 15mg/kg over 30-60min not to exceed 20mg/min",
+            "20kg child: 5-10 mg/min",
+            "40kg child: 10-20 mg/min",
+            "60kg child: 20 mg/min"
+        ]
+    },
+    "routes": ["IV Drip", "IVP followed by IV drip"],
+    "indications": [
+        "VF",
+        "VT",
+        "Wide-complex tachycardia of unknown origin",
+        "WPW"
+    ],
+    "contraindications": [
+        "Cardiac arrest not routinely indicated",
+        "2nd/3rd* heart block; bradycardia, Torsades, prolonged QT",
+        "High degree AV block",
+        "\u2193 HR"
+    ],
+    "notes": [
+        "Widening of QRS",
+        "\u2193 BP",
+        "STOP if rhythm converts \u2193 Bp, QRS \u2191 by 50% or max dose reached"
+    ]
+}
+

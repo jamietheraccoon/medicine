@@ -1,0 +1,13 @@
+{
+    "name": "Rocuronium",
+    "concentration": "50mg/5ml (10mg/ml)",
+    "dose": {
+        "adults": ["0.5mg/kg, repeat dosing as required"],
+        "peds": ["1mg/kg, repeat as needed"]
+    },
+    "routes": ["IVP"],
+    "indications": ["Long-term Paralytic following intubation"],
+    "contraindications": ["No field contraindications"],
+    "notes": ["Prolonged paralysis"]
+}
+

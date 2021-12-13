@@ -1,0 +1,31 @@
+{
+    "name": "Ketamine",
+    "concentration": "500mg/5ml (100mg/ml)",
+    "dose": {
+        "adults": [
+            "5mg/kg (max dose 500mg)",
+            "0.2mg/kg IV (must dilute)"
+        ],
+        "peds": [
+            "1-2mg/kg IM",
+            "0.2mg/kg IV (must dilute)"
+        ]
+    },
+    "routes": [
+        "IM",
+        "IV"
+    ],
+    "indications": [
+        "Px Management",
+        "Severe Agitation",
+        "Excited Delirium"
+    ],
+    "contraindications": [
+        "Severe HTN",
+        "suspected CVA or ACS"
+    ],
+    "notes": [
+        "Emergent reactions (treated by titrated Midazolam)",
+        "monitor with LP15"
+    ]
+}

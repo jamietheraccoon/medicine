@@ -15,6 +15,37 @@
 		E219D80D2744C463006D3BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E219D80B2744C463006D3BCB /* LaunchScreen.storyboard */; };
 		E219D8152744CD9F006D3BCB /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219D8142744CD9F006D3BCB /* Medicine.swift */; };
 		E251C73E27644DBC009F7EC5 /* adenosine.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C73D27644DBC009F7EC5 /* adenosine.json */; };
+		E251C7402766F2FF009F7EC5 /* albuterol.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C73F2766F2FF009F7EC5 /* albuterol.json */; };
+		E251C7422766F647009F7EC5 /* atropine.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C7412766F647009F7EC5 /* atropine.json */; };
+		E251C7442766F90D009F7EC5 /* calcium chloride.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C7432766F90D009F7EC5 /* calcium chloride.json */; };
+		E251C7462766FBB1009F7EC5 /* dextrose d10.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C7452766FBB1009F7EC5 /* dextrose d10.json */; };
+		E251C74827670D90009F7EC5 /* dextrose d50.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C74727670D90009F7EC5 /* dextrose d50.json */; };
+		E251C74A27670DE6009F7EC5 /* diltiazem.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C74927670DE6009F7EC5 /* diltiazem.json */; };
+		E251C74C27672F8E009F7EC5 /* diphenhydramine.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C74B27672F8E009F7EC5 /* diphenhydramine.json */; };
+		E251C74E2767305E009F7EC5 /* epi 1000.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C74D2767305E009F7EC5 /* epi 1000.json */; };
+		E251C7502767320A009F7EC5 /* epi 10000.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C74F2767320A009F7EC5 /* epi 10000.json */; };
+		E251C752276732E5009F7EC5 /* epi racemic.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C751276732E5009F7EC5 /* epi racemic.json */; };
+		E251C75427673407009F7EC5 /* etomidate.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C75327673407009F7EC5 /* etomidate.json */; };
+		E251C758276734F3009F7EC5 /* fentanyl.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C757276734F3009F7EC5 /* fentanyl.json */; };
+		E251C75A276735B0009F7EC5 /* furosemide.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C759276735B0009F7EC5 /* furosemide.json */; };
+		E251C75C27673696009F7EC5 /* glucagon.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C75B27673696009F7EC5 /* glucagon.json */; };
+		E251C75E27673747009F7EC5 /* ipratropium.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C75D27673747009F7EC5 /* ipratropium.json */; };
+		E251C760276737A7009F7EC5 /* ketamine.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C75F276737A7009F7EC5 /* ketamine.json */; };
+		E251C76227673859009F7EC5 /* leviteracitam.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C76127673859009F7EC5 /* leviteracitam.json */; };
+		E251C7642767392F009F7EC5 /* levophed.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C7632767392F009F7EC5 /* levophed.json */; };
+		E251C76627673A2A009F7EC5 /* lidocaine preload.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C76527673A2A009F7EC5 /* lidocaine preload.json */; };
+		E251C76827673AD2009F7EC5 /* lidocaine drip.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C76727673AD2009F7EC5 /* lidocaine drip.json */; };
+		E251C76A27673B41009F7EC5 /* magnesium sulfate.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C76927673B41009F7EC5 /* magnesium sulfate.json */; };
+		E251C76C27673C69009F7EC5 /* metoprolol.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C76B27673C69009F7EC5 /* metoprolol.json */; };
+		E251C77027673D13009F7EC5 /* midazolam.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C76F27673D13009F7EC5 /* midazolam.json */; };
+		E251C77227673DC1009F7EC5 /* narcan.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C77127673DC1009F7EC5 /* narcan.json */; };
+		E251C77427673E38009F7EC5 /* nitroglycerin.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C77327673E38009F7EC5 /* nitroglycerin.json */; };
+		E251C77827673F01009F7EC5 /* ondansetron.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C77727673F01009F7EC5 /* ondansetron.json */; };
+		E251C77A27673F64009F7EC5 /* oxytocin.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C77927673F64009F7EC5 /* oxytocin.json */; };
+		E251C77C27673FED009F7EC5 /* procainamide.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C77B27673FED009F7EC5 /* procainamide.json */; };
+		E251C77E276740C5009F7EC5 /* rocuronium.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C77D276740C5009F7EC5 /* rocuronium.json */; };
+		E251C7802767412A009F7EC5 /* sodium bicarb.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C77F2767412A009F7EC5 /* sodium bicarb.json */; };
+		E251C782276741C5009F7EC5 /* succinylcholine.json in Resources */ = {isa = PBXBuildFile; fileRef = E251C781276741C5009F7EC5 /* succinylcholine.json */; };
 		E2654D452760835A00D03CF5 /* acetaminophen.json in Resources */ = {isa = PBXBuildFile; fileRef = E2654D442760835A00D03CF5 /* acetaminophen.json */; };
 		E2654D47276083E200D03CF5 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = E2654D46276083E200D03CF5 /* example.json */; };
 		E26D7AC927506D6B0047DCEB /* medicine.json in Resources */ = {isa = PBXBuildFile; fileRef = E26D7AC827506D6B0047DCEB /* medicine.json */; };
@@ -32,6 +63,37 @@
 		E219D80E2744C463006D3BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E219D8142744CD9F006D3BCB /* Medicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
 		E251C73D27644DBC009F7EC5 /* adenosine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = adenosine.json; sourceTree = "<group>"; };
+		E251C73F2766F2FF009F7EC5 /* albuterol.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = albuterol.json; sourceTree = "<group>"; };
+		E251C7412766F647009F7EC5 /* atropine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = atropine.json; sourceTree = "<group>"; };
+		E251C7432766F90D009F7EC5 /* calcium chloride.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "calcium chloride.json"; sourceTree = "<group>"; };
+		E251C7452766FBB1009F7EC5 /* dextrose d10.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "dextrose d10.json"; sourceTree = "<group>"; };
+		E251C74727670D90009F7EC5 /* dextrose d50.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "dextrose d50.json"; sourceTree = "<group>"; };
+		E251C74927670DE6009F7EC5 /* diltiazem.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = diltiazem.json; sourceTree = "<group>"; };
+		E251C74B27672F8E009F7EC5 /* diphenhydramine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = diphenhydramine.json; sourceTree = "<group>"; };
+		E251C74D2767305E009F7EC5 /* epi 1000.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "epi 1000.json"; sourceTree = "<group>"; };
+		E251C74F2767320A009F7EC5 /* epi 10000.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "epi 10000.json"; sourceTree = "<group>"; };
+		E251C751276732E5009F7EC5 /* epi racemic.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "epi racemic.json"; sourceTree = "<group>"; };
+		E251C75327673407009F7EC5 /* etomidate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = etomidate.json; sourceTree = "<group>"; };
+		E251C757276734F3009F7EC5 /* fentanyl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = fentanyl.json; sourceTree = "<group>"; };
+		E251C759276735B0009F7EC5 /* furosemide.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = furosemide.json; sourceTree = "<group>"; };
+		E251C75B27673696009F7EC5 /* glucagon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = glucagon.json; sourceTree = "<group>"; };
+		E251C75D27673747009F7EC5 /* ipratropium.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ipratropium.json; sourceTree = "<group>"; };
+		E251C75F276737A7009F7EC5 /* ketamine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ketamine.json; sourceTree = "<group>"; };
+		E251C76127673859009F7EC5 /* leviteracitam.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = leviteracitam.json; sourceTree = "<group>"; };
+		E251C7632767392F009F7EC5 /* levophed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levophed.json; sourceTree = "<group>"; };
+		E251C76527673A2A009F7EC5 /* lidocaine preload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lidocaine preload.json"; sourceTree = "<group>"; };
+		E251C76727673AD2009F7EC5 /* lidocaine drip.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "lidocaine drip.json"; sourceTree = "<group>"; };
+		E251C76927673B41009F7EC5 /* magnesium sulfate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "magnesium sulfate.json"; sourceTree = "<group>"; };
+		E251C76B27673C69009F7EC5 /* metoprolol.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metoprolol.json; sourceTree = "<group>"; };
+		E251C76F27673D13009F7EC5 /* midazolam.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = midazolam.json; sourceTree = "<group>"; };
+		E251C77127673DC1009F7EC5 /* narcan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = narcan.json; sourceTree = "<group>"; };
+		E251C77327673E38009F7EC5 /* nitroglycerin.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = nitroglycerin.json; sourceTree = "<group>"; };
+		E251C77727673F01009F7EC5 /* ondansetron.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ondansetron.json; sourceTree = "<group>"; };
+		E251C77927673F64009F7EC5 /* oxytocin.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = oxytocin.json; sourceTree = "<group>"; };
+		E251C77B27673FED009F7EC5 /* procainamide.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = procainamide.json; sourceTree = "<group>"; };
+		E251C77D276740C5009F7EC5 /* rocuronium.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rocuronium.json; sourceTree = "<group>"; };
+		E251C77F2767412A009F7EC5 /* sodium bicarb.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "sodium bicarb.json"; sourceTree = "<group>"; };
+		E251C781276741C5009F7EC5 /* succinylcholine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = succinylcholine.json; sourceTree = "<group>"; };
 		E2654D442760835A00D03CF5 /* acetaminophen.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = acetaminophen.json; sourceTree = "<group>"; };
 		E2654D46276083E200D03CF5 /* example.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
 		E26D7AC827506D6B0047DCEB /* medicine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = medicine.json; sourceTree = "<group>"; };
@@ -89,6 +151,37 @@
 				E2654D442760835A00D03CF5 /* acetaminophen.json */,
 				E2654D46276083E200D03CF5 /* example.json */,
 				E251C73D27644DBC009F7EC5 /* adenosine.json */,
+				E251C73F2766F2FF009F7EC5 /* albuterol.json */,
+				E251C7412766F647009F7EC5 /* atropine.json */,
+				E251C7432766F90D009F7EC5 /* calcium chloride.json */,
+				E251C7452766FBB1009F7EC5 /* dextrose d10.json */,
+				E251C74727670D90009F7EC5 /* dextrose d50.json */,
+				E251C74927670DE6009F7EC5 /* diltiazem.json */,
+				E251C74B27672F8E009F7EC5 /* diphenhydramine.json */,
+				E251C74F2767320A009F7EC5 /* epi 10000.json */,
+				E251C74D2767305E009F7EC5 /* epi 1000.json */,
+				E251C751276732E5009F7EC5 /* epi racemic.json */,
+				E251C75327673407009F7EC5 /* etomidate.json */,
+				E251C757276734F3009F7EC5 /* fentanyl.json */,
+				E251C759276735B0009F7EC5 /* furosemide.json */,
+				E251C75B27673696009F7EC5 /* glucagon.json */,
+				E251C75D27673747009F7EC5 /* ipratropium.json */,
+				E251C75F276737A7009F7EC5 /* ketamine.json */,
+				E251C76127673859009F7EC5 /* leviteracitam.json */,
+				E251C7632767392F009F7EC5 /* levophed.json */,
+				E251C76527673A2A009F7EC5 /* lidocaine preload.json */,
+				E251C76727673AD2009F7EC5 /* lidocaine drip.json */,
+				E251C76927673B41009F7EC5 /* magnesium sulfate.json */,
+				E251C76B27673C69009F7EC5 /* metoprolol.json */,
+				E251C76F27673D13009F7EC5 /* midazolam.json */,
+				E251C77127673DC1009F7EC5 /* narcan.json */,
+				E251C77327673E38009F7EC5 /* nitroglycerin.json */,
+				E251C77727673F01009F7EC5 /* ondansetron.json */,
+				E251C77927673F64009F7EC5 /* oxytocin.json */,
+				E251C77B27673FED009F7EC5 /* procainamide.json */,
+				E251C77D276740C5009F7EC5 /* rocuronium.json */,
+				E251C77F2767412A009F7EC5 /* sodium bicarb.json */,
+				E251C781276741C5009F7EC5 /* succinylcholine.json */,
 			);
 			path = medicineData;
 			sourceTree = "<group>";
@@ -151,13 +244,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E251C76627673A2A009F7EC5 /* lidocaine preload.json in Resources */,
+				E251C760276737A7009F7EC5 /* ketamine.json in Resources */,
+				E251C77E276740C5009F7EC5 /* rocuronium.json in Resources */,
+				E251C77C27673FED009F7EC5 /* procainamide.json in Resources */,
+				E251C782276741C5009F7EC5 /* succinylcholine.json in Resources */,
+				E251C76C27673C69009F7EC5 /* metoprolol.json in Resources */,
+				E251C77427673E38009F7EC5 /* nitroglycerin.json in Resources */,
+				E251C75C27673696009F7EC5 /* glucagon.json in Resources */,
+				E251C7402766F2FF009F7EC5 /* albuterol.json in Resources */,
+				E251C76A27673B41009F7EC5 /* magnesium sulfate.json in Resources */,
 				E2654D47276083E200D03CF5 /* example.json in Resources */,
+				E251C77227673DC1009F7EC5 /* narcan.json in Resources */,
+				E251C74E2767305E009F7EC5 /* epi 1000.json in Resources */,
 				E251C73E27644DBC009F7EC5 /* adenosine.json in Resources */,
 				E219D80D2744C463006D3BCB /* LaunchScreen.storyboard in Resources */,
+				E251C75A276735B0009F7EC5 /* furosemide.json in Resources */,
+				E251C77027673D13009F7EC5 /* midazolam.json in Resources */,
+				E251C7502767320A009F7EC5 /* epi 10000.json in Resources */,
+				E251C758276734F3009F7EC5 /* fentanyl.json in Resources */,
 				E219D80A2744C463006D3BCB /* Assets.xcassets in Resources */,
+				E251C77827673F01009F7EC5 /* ondansetron.json in Resources */,
 				E219D8082744C462006D3BCB /* Main.storyboard in Resources */,
+				E251C76227673859009F7EC5 /* leviteracitam.json in Resources */,
 				E2654D452760835A00D03CF5 /* acetaminophen.json in Resources */,
+				E251C74C27672F8E009F7EC5 /* diphenhydramine.json in Resources */,
+				E251C76827673AD2009F7EC5 /* lidocaine drip.json in Resources */,
+				E251C7462766FBB1009F7EC5 /* dextrose d10.json in Resources */,
+				E251C752276732E5009F7EC5 /* epi racemic.json in Resources */,
+				E251C75427673407009F7EC5 /* etomidate.json in Resources */,
+				E251C75E27673747009F7EC5 /* ipratropium.json in Resources */,
+				E251C7642767392F009F7EC5 /* levophed.json in Resources */,
+				E251C74827670D90009F7EC5 /* dextrose d50.json in Resources */,
+				E251C7422766F647009F7EC5 /* atropine.json in Resources */,
+				E251C7802767412A009F7EC5 /* sodium bicarb.json in Resources */,
 				E26D7AC927506D6B0047DCEB /* medicine.json in Resources */,
+				E251C7442766F90D009F7EC5 /* calcium chloride.json in Resources */,
+				E251C77A27673F64009F7EC5 /* oxytocin.json in Resources */,
+				E251C74A27670DE6009F7EC5 /* diltiazem.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

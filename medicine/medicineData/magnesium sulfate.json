@@ -1,0 +1,33 @@
+{
+    "name": "Magnesium Sulfate",
+    "concentration": "1g/2ml (500mg/ml)",
+    "dose": {
+        "adults": [
+            "2gm in 10cc NS flush - up to 6gm",
+            "2gms in 50cc flush over 20 min.",
+            "4gms in 50cc NS over 20 min.",
+            "4gms over 5-10 min."
+        ],
+        "peds": ["50mg/kg up to 2 grams (diluted in 50cc NS)"]
+    },
+    "routes": ["IVP", "Slow IVP"],
+    "indications": [
+        "VF, VT, Torsades, Asthma - IVP",
+        "VF/VT refractory - Lido&Procain - IVP",
+        "Torsades - IVP",
+        "COPD/Asthma - Slow IVP",
+        "Pre-Eclampsia (BP > 130/80) - Slow IVP",
+        "Eclampsia (seizures) - Slow IVP"
+    ],
+    "contraindications": [
+        "Heart Block"
+    ],
+    "notes": [
+        "\u2193 LOC",
+        "\u2193 BP",
+        "\u2193 HR",
+        "\u2193 Resp. Drive",
+        "Arrhythmias",
+        "may be used for VT w/ tricyclic antidepressant and VF/VT from digitalis OD"
+    ]
+}

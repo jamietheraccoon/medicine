@@ -1,0 +1,19 @@
+{
+    "name": "Succinylcholine",
+    "concentration": "200mg/10ml (20mg/ml)",
+    "dose": {
+        "adults": ["1 - 1.5mg/kg"],
+        "peds": ["2mg/kg"]
+    },
+    "routes": ["IVP"],
+    "indications": ["Short-term paralytic for intubation"],
+    "contraindications": [
+        "Malignant hypothermia",
+        "Neuromuscular disease",
+        "Hyper K",
+        "Caution: major burns, CVA, eye inj."
+    ],
+    "notes": [
+        "No significant side effects"
+    ]
+}

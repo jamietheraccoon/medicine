@@ -1,0 +1,34 @@
+{
+    "name": "Midazolam (Versed)",
+    "concentration": "Example concentration",
+    "dose": {
+        "adults": [
+            "1-2mg",
+            "1-10mg titrate to effect (repeat PRN)",
+            "10mg (max two doses, IV/IO over 2 min"
+        ],
+        "peds": [
+            "0.2mg/kg IM, IN",
+            "0.1mg/kg IV, IO"
+        ]
+    },
+    "routes": [
+        "IM",
+        "IN",
+        "IV",
+        "IO Slow",
+        "Slow IVP"
+    ],
+    "indications": [
+        "Sedation",
+        "RSI",
+        "Seizures",
+        "Anxiolytic"
+    ],
+    "contraindications": [
+        "Hypersensitivity",
+        "Narrow-angle glaucoma"
+    ],
+    "notes": ["Respiratory Depression", "\u2193 BP"]
+}
+

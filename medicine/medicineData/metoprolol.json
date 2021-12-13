@@ -1,0 +1,24 @@
+{
+    "name": "Metoprolol",
+    "concentration": "5mg/5ml (1mg/ml)",
+    "dose": {
+        "adults": ["5mg over 1-2 min. q 5 minutes, up to 15mg"],
+        "peds": []
+    },
+    "routes": ["Slow IVP"],
+    "indications": [
+        "Refractory VF/VT",
+        "MI",
+        "ACS",
+        "HTN Crisis",
+        "Hyperthyroidism"
+    ],
+    "contraindications": [
+        "\u2193 BP < 100",
+        "\u2193 HR < 60",
+        "Chronic Lung Disease/Asthma",
+        "Cocaine OD = \u2191 BP"
+    ],
+    "notes": ["No significant side effects"]
+}
+

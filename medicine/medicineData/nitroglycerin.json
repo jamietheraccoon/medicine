@@ -1,0 +1,29 @@
+{
+    "name": "Nitroglycerin",
+    "concentration": "0.4mg/spray",
+    "dose": {
+        "adults": [
+            "0.4mg q 3-5 min. for ACS",
+            "May give more frequently with CHF"
+        ],
+        "peds": []
+    },
+    "routes": ["Sublingual"],
+    "indications": [
+        "ACS",
+        "MI",
+        "CHF",
+        "Pulmonary Edema",
+        "Esophageal Spasms"
+    ],
+    "contraindications": [
+        "Use of Viagra/Levitra - 24hrs",
+        "Cialis - 48hrs",
+        "\u2193 BP",
+        "HTN crisis due to CNS Event"
+    ],
+    "notes": [
+        "Caution if Right side MI (consider fluid challenge)"
+    ]
+}
+

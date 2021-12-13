@@ -1,0 +1,17 @@
+{
+    "name": "Lidocaine (Drip)",
+    "concentration": "2g/250ml (8mg/ml)",
+    "dose": {
+        "adults": ["1 to 4mg/min, \u2193 if elderly/liver disease"],
+        "peds": []
+    },
+    "routes": ["IV Drip"],
+    "indications": [
+        "Converted VF",
+        "VT",
+        "PVCs"
+    ],
+    "contraindications": ["Heart block"],
+    "notes": ["\u2193 BP"]
+}
+

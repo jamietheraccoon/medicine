@@ -1,0 +1,24 @@
+{
+    "name": "Ondansetron (Zofran)",
+    "concentration": "4mg/2ml (2mg/ml)",
+    "dose": {
+        "adults": [
+            "4mg IV dose over 2 min, may repeat"
+        ],
+        "peds": [
+            "6mo-12yrs: 0.1 mg/kg (Max 4mg)"
+        ]
+    },
+    "routes": [
+        "IV",
+        "IM"
+    ],
+    "indications": ["Nausea/vomiting"],
+    "contraindications": [
+        "Hypersensitivity",
+        "Allergy"
+    ],
+    "notes": [
+        "QT prolongation"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Ipratropium",
+    "concentration": "0.5mg/2.5ml vial",
+    "dose": {
+        "adults": ["0.5mg (1 vial) via nebulizer with Albuterol (repeat once)"],
+        "peds": ["0.5 mg; repeat once"]
+    },
+    "routes": ["Nebulizer"],
+    "indications": [
+        "Bronchospasms (Asthma/COPD)"
+    ],
+    "contraindications": ["Allergy"],
+    "notes": ["\u2191 HR"]
+}
