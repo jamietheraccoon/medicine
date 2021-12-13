@@ -199,8 +199,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neh-bG-vwK">
                                 <rect key="frame" x="101" y="411.66666666666669" width="173" height="43"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="Kta-vX-gXm"/>
-                                    <constraint firstAttribute="width" constant="173" id="ceC-lk-UwD"/>
+                                    <constraint firstAttribute="width" secondItem="neh-bG-vwK" secondAttribute="height" multiplier="173:43" id="R3E-FK-PSh"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Pharmacology">
