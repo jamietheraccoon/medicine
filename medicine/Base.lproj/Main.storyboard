@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FlT-1R-5NL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cJ0-Ib-xZI">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -46,7 +46,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jUo-lU-qBs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="658.39999999999998" y="30.295566502463057"/>
+            <point key="canvasLocation" x="2543.1999999999998" y="30.295566502463057"/>
         </scene>
         <!--Medicine View Controller-->
         <scene sceneID="cbJ-Ik-feE">
@@ -186,25 +186,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gly-wG-Obt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1640.8" y="29.55665024630542"/>
+            <point key="canvasLocation" x="3525.5999999999999" y="29.55665024630542"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="1W5-Hl-dMa">
+            <objects>
+                <viewController id="QaO-Tk-bjo" userLabel="Menu View Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sZu-Yl-Xp4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neh-bG-vwK">
+                                <rect key="frame" x="101" y="411.66666666666669" width="173" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="Kta-vX-gXm"/>
+                                    <constraint firstAttribute="width" constant="173" id="ceC-lk-UwD"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Pharmacology">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="RqQ-mf-Gqj" kind="show" id="DPv-0h-OcP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RDX-pY-vfb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="neh-bG-vwK" firstAttribute="centerX" secondItem="RDX-pY-vfb" secondAttribute="centerX" id="h27-dl-98a"/>
+                            <constraint firstItem="neh-bG-vwK" firstAttribute="centerY" secondItem="RDX-pY-vfb" secondAttribute="centerY" id="vDm-35-33D"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="iJ6-Ix-m4O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SXa-Ad-3gl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1604" y="29.55665024630542"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="gSO-WM-vY3">
+        <scene sceneID="lz6-a4-B9r">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FlT-1R-5NL" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cJ0-Ib-xZI" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xuO-rJ-y19">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="47g-qa-3s4">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="RqQ-mf-Gqj" kind="relationship" relationship="rootViewController" id="b6N-Xm-TAy"/>
+                        <segue destination="QaO-Tk-bjo" kind="relationship" relationship="rootViewController" id="exQ-O7-KRk"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1hY-8M-I1x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vTu-VH-pgs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-284" y="30.295566502463057"/>
+            <point key="canvasLocation" x="661.60000000000002" y="29.55665024630542"/>
         </scene>
     </scenes>
     <resources>
