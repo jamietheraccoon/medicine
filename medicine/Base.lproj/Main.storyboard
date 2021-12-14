@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cJ0-Ib-xZI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cJ0-Ib-xZI">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -52,6 +51,10 @@
         <scene sceneID="cbJ-Ik-feE">
             <objects>
                 <viewController id="mMi-mc-lK5" customClass="MedicineViewController" customModule="medicine" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pZZ-gL-sVK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fau-nO-cgy"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hT9-5R-Vic">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,13 +165,12 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="O4E-B1-kPf"/>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="Nm4-vn-YfV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="25E-6e-Ph9" firstAttribute="top" secondItem="Nm4-vn-YfV" secondAttribute="top" id="Gnp-FP-ZqI"/>
+                            <constraint firstItem="25E-6e-Ph9" firstAttribute="top" secondItem="pZZ-gL-sVK" secondAttribute="bottom" id="Gnp-FP-ZqI"/>
                             <constraint firstAttribute="bottom" secondItem="25E-6e-Ph9" secondAttribute="bottom" id="IaJ-f0-drS"/>
-                            <constraint firstItem="25E-6e-Ph9" firstAttribute="trailing" secondItem="Nm4-vn-YfV" secondAttribute="trailing" id="kQF-QA-Nzd"/>
-                            <constraint firstItem="25E-6e-Ph9" firstAttribute="leading" secondItem="Nm4-vn-YfV" secondAttribute="leading" id="t5V-Bd-6Uk"/>
+                            <constraint firstItem="25E-6e-Ph9" firstAttribute="trailing" secondItem="hT9-5R-Vic" secondAttribute="trailing" id="kQF-QA-Nzd"/>
+                            <constraint firstItem="25E-6e-Ph9" firstAttribute="leading" secondItem="hT9-5R-Vic" secondAttribute="leading" id="t5V-Bd-6Uk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RdR-pZ-gMT"/>
@@ -192,12 +194,16 @@
         <scene sceneID="1W5-Hl-dMa">
             <objects>
                 <viewController id="QaO-Tk-bjo" userLabel="Menu View Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kFU-Ly-hcj"/>
+                        <viewControllerLayoutGuide type="bottom" id="uhu-Ks-8Fo"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="sZu-Yl-Xp4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neh-bG-vwK">
-                                <rect key="frame" x="101" y="411.66666666666669" width="173" height="43"/>
+                                <rect key="frame" x="101" y="384.66666666666669" width="173" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="neh-bG-vwK" secondAttribute="height" multiplier="173:43" id="R3E-FK-PSh"/>
                                 </constraints>
@@ -210,11 +216,10 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="RDX-pY-vfb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="neh-bG-vwK" firstAttribute="centerX" secondItem="RDX-pY-vfb" secondAttribute="centerX" id="h27-dl-98a"/>
-                            <constraint firstItem="neh-bG-vwK" firstAttribute="centerY" secondItem="RDX-pY-vfb" secondAttribute="centerY" id="vDm-35-33D"/>
+                            <constraint firstItem="neh-bG-vwK" firstAttribute="centerX" secondItem="sZu-Yl-Xp4" secondAttribute="centerX" id="h27-dl-98a"/>
+                            <constraint firstItem="neh-bG-vwK" firstAttribute="centerY" secondItem="sZu-Yl-Xp4" secondAttribute="centerY" id="vDm-35-33D"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="iJ6-Ix-m4O"/>
@@ -239,7 +244,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vTu-VH-pgs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="661.60000000000002" y="29.55665024630542"/>
+            <point key="canvasLocation" x="732" y="30"/>
         </scene>
     </scenes>
     <resources>
